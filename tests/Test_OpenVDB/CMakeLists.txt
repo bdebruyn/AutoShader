@@ -8,5 +8,7 @@ set(tests
    Test_OpenVDB
 )
 set(libraries
+   openvdb
+   tbb
 )
 UnitTest_All("${tests}" "${libraries}")
